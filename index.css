@@ -1,0 +1,68 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  background-color: rgb(22, 25, 37);
+  color: white;
+}
+h1 {
+  font-family: "Lobster Two", cursive;
+  color: rgb(51, 131, 206);
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(51, 131, 206);
+}
+h3 {
+  font-family: "Quicksand", sans-serif;
+}
+a {
+  color: rgb(51, 131, 206);
+  transition: color 0.5s;
+}
+a:hover {
+  color: rgb(151, 99, 207);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+
+#me {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: border-radius 0.25s;
+}
+
+#me:hover {
+  width: 95px;
+  height: 100px;
+  border-radius: 25%;
+}
+/*
+@keyframes myspinner {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  animation: myspinner 4s;
+  animation-iteration-count: infinite;
+}
