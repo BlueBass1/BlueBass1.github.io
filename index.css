@@ -16,6 +16,10 @@ h2 {
   font-family: "Quicksand", sans-serif;
   color: rgb(51, 131, 206);
 }
+#about_me h2 {
+  margin: 0 0 1em;
+  padding: 0 0 1em;
+}
 h3 {
   font-family: "Quicksand", sans-serif;
 }
@@ -23,8 +27,11 @@ a {
   color: rgb(51, 131, 206);
   transition: color 0.5s;
 }
-a:hover {
+a:visited {
   color: rgb(151, 99, 207);
+}
+a:hover {
+  color: rgb(233, 120, 0);
 }
 ul {
   list-style-type: none;
@@ -36,19 +43,41 @@ img {
   width: 300px;
   height: auto;
 }
-
+#introduction {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 20px 30px;
+}
+.project_grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+/*
+#projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+*/
+#about_me {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  padding: 20px 30px;
+}
 #me {
   width: 90px;
-  height: 90px;
+  height: 95px;
   border-radius: 50%;
   object-fit: cover;
-  transition: border-radius 0.25s;
+  transition: all 0.25s;
 }
 
 #me:hover {
-  width: 95px;
-  height: 100px;
-  border-radius: 25%;
+  transform: scale(1.1);
+  border-radius: 10%;
 }
 /*
 @keyframes myspinner {
@@ -66,3 +95,4 @@ img {
   animation: myspinner 4s;
   animation-iteration-count: infinite;
 }
+*/
