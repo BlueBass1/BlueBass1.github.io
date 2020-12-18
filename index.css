@@ -72,7 +72,11 @@ img {
 */
 #about_me {
   text-align: center;
-  padding: 20px 30px;
+  padding: 0px 30px 30px 10px;
+}
+#about_me_header {
+  text-align: center;
+  padding: 0px 30px;
 }
 #me {
   width: 180px;
@@ -86,9 +90,9 @@ img {
   transform: scale(1.1);
   border-radius: 10%;
 }
-#contact {
+#contacts {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 /*
 @keyframes myspinner {
