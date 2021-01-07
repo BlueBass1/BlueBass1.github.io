@@ -93,6 +93,7 @@ img {
 #contacts {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 10px;
 }
 /*
 @keyframes myspinner {
