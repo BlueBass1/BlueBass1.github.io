@@ -8,7 +8,7 @@ body {
 }
 .black_background {
   margin-top: 2px;
-  background-color: black;
+  background-color: rgb(11, 14, 26);
 }
 .center {
   text-align: center;
@@ -20,14 +20,13 @@ h1 {
 }
 h2 {
   margin-top: 1em;
-  padding-top: 1em;
   font-size: 40px;
   font-family: "Quicksand", sans-serif;
   color: rgb(44, 140, 230);
 }
 #about_me h2 {
-  margin: 1em 0;
-  padding: 1em 0;
+  margin: 5px 0px 0px 10px;
+  padding: 5px 0px 0px 10px;
 }
 h3 {
   font-family: "Quicksand", sans-serif;
@@ -72,16 +71,17 @@ img {
 */
 #about_me {
   text-align: center;
-  padding: 0px 30px 30px 10px;
+  padding: 0px 10px 10px 10px;
 }
 #about_me_header {
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 10px;
 }
 #me {
   width: 180px;
   height: 185px;
   border-radius: 50%;
+  padding: 10px;
   object-fit: cover;
   transition: all 0.25s;
 }
