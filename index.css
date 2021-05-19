@@ -6,6 +6,13 @@ body {
   background-color: rgb(22, 25, 37);
   color: rgb(236, 236, 236);
 }
+.black_background {
+  margin-top: 2px;
+  background-color: rgb(15, 17, 26);
+}
+.txt_center {
+  text-align: center;
+}
 p{
   font-size: 18px;
 }
@@ -60,6 +67,7 @@ img {
 #about_me {
   text-align: center;
   padding: 0px 85px;
+  margin-bottom: 35px;
 }
 #about_me_header {
   text-align: center;
@@ -82,7 +90,7 @@ img {
 #contacts {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 /*
 @keyframes myspinner {
