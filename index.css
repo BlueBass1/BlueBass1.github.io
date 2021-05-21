@@ -124,7 +124,7 @@ img {
   animation-iteration-count: infinite;
 }
 */
-@media (max-width: 736px) {
+@media (max-width: 769px) {
   p {
     font-size: 15px;
   }
