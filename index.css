@@ -193,3 +193,101 @@ h3 {
     padding: 0px 0px 0px 10px;
   }
 }
+@media (max-width: 376px) {
+  p {
+    font-size: 15px;
+  }
+  a {
+    font-size: 15px;
+  }
+  .project {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+h1 {
+  font-size: 25px;
+  font-family: "Lobster Two", cursive;
+  color: rgb(51, 131, 206);
+}
+h2 {
+  margin-top: 1em;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(51, 131, 206);
+}
+h3 {
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+#me {
+  width: 60px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 80% 35%;
+  transition: all 0.25s;
+}
+
+#about_me h2 {
+  margin: 5px 0px 0px 10px;
+  padding: 5px 0px 0px 10px;
+  font-size: 15px;
+}
+#introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+#images_txt {
+  font-size: 25px;
+}
+#projects {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-content: space-between;
+  margin: 0px 60px;
+}
+#about_me {
+  text-align: center;
+  padding: 0px 170px;
+  margin-bottom: 35px;
+}
+#about_me_header {
+  text-align: center;
+  padding: 0px 10px;
+}
+#name {
+  padding: 0px 0px 0px 25px;
+}
+#projects {
+  display: flex;
+  flex-flow:  wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0px 85px;
+  }
+  #about_me {
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 25px;
+  }
+  .txt_container {
+    padding: 0px 0px 0px 5px;
+  }
+  #contacts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+}
